@@ -1,0 +1,11 @@
+{
+  "products": [
+    {
+      "name": "Shampoo de naranja",
+      "price": 1500,
+      "description": "Este es un rico shampo a olor a naraja",
+      "imgUrl": "https://i.imgur.com/o8d42EQ.png",
+      "id": "53f021bae8190cf9"
+    }
+  ]
+}
