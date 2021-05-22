@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon  --exec babel-node index.js",
     "build": "babel index.js --out-dir build",
-    "serve": "node build/index.js"
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
