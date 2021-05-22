@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename)
 const file = join(__dirname, 'db.json')
 const adapter = new JSONFile(file)
 const db = new Low(adapter)
-await db.read()
+db.read()
 db.data = db.data || { products: [] }
 app.use(json())
 
